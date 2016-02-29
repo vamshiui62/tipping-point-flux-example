@@ -1,0 +1,24 @@
+.label {
+    border: 2px solid #0000FF;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    width: 200px;
+    transition: width 1s;
+}
+
+.label_red {
+    border: 2px solid #FF0000;
+    width: 400px;
+    transition: width 1s;
+}
+
+.new-item-form{
+    margin-top: 30px;
+}
+
+#app-root {
+    margin-top: 50px;
+    text-align: center;
+}

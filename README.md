@@ -5,7 +5,7 @@ A simple React application that demonstrates basic usage of the Flux architectur
 ##Getting started
 ```
 git clone https://github.com/vamshiui62/tipping-point-flux-example.git
-cd easy-flux-example
+cd tipping-point
 npm install
 gulp
 sudo npm install -g http-server
