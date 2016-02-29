@@ -1,5 +1,5 @@
 {
-  "name": "Tipping Point",
+  "name": "tipping-point-flux-example",
   "version": "1.0.0",
   "description": "A React application that demonstrates basic usage of the Flux architecture pattern.",
   "main": "app.js",
