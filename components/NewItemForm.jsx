@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import LabelDispatcher from '../dispatcher/LabelDispatcher';
 
 class NewItemForm extends React.Component {
@@ -9,10 +10,10 @@ class NewItemForm extends React.Component {
         e.preventDefault();
 
         // this gets the value from the input
-        let item_label = React.findDOMNode(this.refs.item_label).value.trim();
+        let item_label = ReactDOM.findDOMNode(this.refs.item_label).value.trim();
 
         // this removes the value from the input
-        React.findDOMNode(this.refs.item_label).value = '';
+        ReactDOM.findDOMNode(this.refs.item_label).value = '';
 
         // This is where the magic happens
         LabelDispatcher.dispatch({
