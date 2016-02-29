@@ -8,7 +8,7 @@ git clone https://github.com/vamshiui62/tipping-point-flux-example.git
 cd tipping-point
 npm install
 gulp
-sudo npm install -g http-server
+npm install -g http-server
 http-server
 
 
