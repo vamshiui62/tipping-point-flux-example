@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react-dom';
 import LabelDispatcher from '../dispatcher/LabelDispatcher';
 
 class NewItemForm extends React.Component {
